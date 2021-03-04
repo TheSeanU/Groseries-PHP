@@ -1,0 +1,36 @@
+.p-price{
+  padding:8px;
+  margin: 5px;
+}
+.container-fluid .m-auto .col span input[type=number]{
+	margin: 5px;
+	display:inline;
+	height:auto;
+	float:right;
+  padding-right:2px;
+}
+.container-fluid .col .d{
+	font-size:12px;
+	text-decoration:underline;
+}
+.container-fluid .col-md-4 .remove{
+	position:absolute !important;
+}
+.container-fluid .col .hydrated:hover{
+	color:red;
+	cursor: pointer;
+}
+
+.currency-symbol {
+  position:absolute;
+  padding: 7px 10px;
+}
+.currency-input input::-webkit-outer-spin-button,
+.currency-input input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+.currency-input input[type=number]{
+	padding-left:30px;
+	-moz-appearance: textfield;
+}
